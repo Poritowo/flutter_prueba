@@ -11,13 +11,15 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: BotonFlotante(),
       theme: ThemeData(
-          primarySwatch: Colors.pink,
-          accentColor: Colors.purple,
-          textTheme: TextTheme(
-              bodyText2: TextStyle(
-            color: Colors.cyanAccent,
+        primarySwatch: Colors.pink,
+        accentColor: Colors.purple,
+        textTheme: TextTheme(
+          bodyText2: TextStyle(
+            color: Colors.red,
             fontSize: 50,
-          ))),
+          )
+        )
+      ),
     );
   }
 }
