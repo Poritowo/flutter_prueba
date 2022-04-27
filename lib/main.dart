@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: BotonFlotante(),
       theme: ThemeData(
         primarySwatch: Colors.pink,
+        accentColor: Colors.purple,
       ),
     );
   }
