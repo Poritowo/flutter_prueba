@@ -8,13 +8,9 @@ class BotonFlotante extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Center(child: Text("Boton Flotante"))),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children:[
-            Text("Hola Mundo")
-          ]
-        )
-      ),
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+        Text("Hola Mundo")
+      ])),
     );
   }
 }
